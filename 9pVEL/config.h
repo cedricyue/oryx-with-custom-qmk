@@ -1,0 +1,13 @@
+#define CHORDAL_HOLD
+#undef DEBOUNCE
+#define DEBOUNCE 5
+
+#undef TAPPING_TERM
+#define TAPPING_TERM 175
+
+#define PERMISSIVE_HOLD
+
+#define USB_SUSPEND_WAKEUP_DELAY 0
+#define SERIAL_NUMBER "9pVEL/rbbLbj"
+#define LAYER_STATE_8BIT
+
