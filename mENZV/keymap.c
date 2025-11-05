@@ -102,6 +102,7 @@ bool is_mouse_record_kb(uint16_t keycode, keyrecord_t* record) {
   return true;
 }
   return is_mouse_record_user(keycode, record);
+}
 
 bool is_mouse_record_user(uint16_t keycode, keyrecord_t* record) {
   // Treat all keys as mouse keys when in the automouse layer so that any key set resets the timeout without leaving the layer.
